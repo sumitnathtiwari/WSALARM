@@ -22,12 +22,12 @@ int soundAlarmTime = 500; // Number of milli seconds to keep the sound alarm hig
 Adafruit_ESP8266 wifi(&softser, &Serial, ESP_RST);
 // Must call begin() on the stream(s) before using Adafruit_ESP8266 object.
 
-#define ESP_SSID "sumit" // Your network name here
-#define ESP_PASS "senti143" // Your network password here
+#define ESP_SSID "your name" // Your network name here
+#define ESP_PASS "your password" // Your network password here
 
-char EMAIL_FROM[] = "nilbhaskar@nil.com";
-char EMAIL_PASSWORD[] =  "nil12345";
-char EMAIL_TO[] = "sumitnathtiwari1@gmail.com";
+char EMAIL_FROM[] = "hajdbdhkak@shjs.com";//SMTP MAIL
+char EMAIL_PASSWORD[] =  "hsnsndn";SMTP PASSWORD
+char EMAIL_TO[] = "yourmail@gmail.com";
 char SUBJECT[]  = "Emergency";
 char EMAIL_CONTENT[] = "Hello,\r\nThis is a Emergency message from Cab no WB 21 XXXX. Passenger in Danger.";
 
